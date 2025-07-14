@@ -1,0 +1,2110 @@
+{
+  "usuarios": [
+    {
+      "cedula": "4024215",
+      "contrasena": "admin2025",
+      "rol": "administrador"
+    },
+    {
+      "cedula": "19674321",
+      "contrasena": "clave123",
+      "rol": "repartidor"
+    },
+    {
+      "cedula": "22456109",
+      "contrasena": "fingers2025",
+      "rol": "repartidor"
+    },
+    {
+      "cedula": "28411234",
+      "contrasena": "polloxd",
+      "rol": "repartidor"
+    },
+    {
+      "cedula": "10112233",
+      "contrasena": "delivery1",
+      "rol": "repartidor"
+    },
+    {
+      "cedula": "12345678",
+      "contrasena": "delivery2",
+      "rol": "repartidor"
+    },
+    {
+      "cedula": "13579135",
+      "contrasena": "delivery3",
+      "rol": "repartidor"
+    },
+    {
+      "cedula": "14725836",
+      "contrasena": "delivery4",
+      "rol": "repartidor"
+    },
+    {
+      "cedula": "15935780",
+      "contrasena": "delivery5",
+      "rol": "repartidor"
+    },
+    {
+      "cedula": "16825791",
+      "contrasena": "delivery6",
+      "rol": "repartidor"
+    },
+    {
+      "cedula": "17398465",
+      "contrasena": "delivery7",
+      "rol": "repartidor"
+    }
+  ],
+  "repartidor": [
+    {
+      "disponibilidad": false,
+      "nombre": "José Martínez",
+      "numeroTelefono": "04167891234",
+      "cedulaIdentidad": "19674321"
+    },
+    {
+      "disponibilidad": true,
+      "nombre": "Carla Rodríguez",
+      "numeroTelefono": "04265556677",
+      "cedulaIdentidad": "22456109"
+    },
+    {
+      "disponibilidad": false,
+      "nombre": "Miguel Herrera",
+      "numeroTelefono": "04147788991",
+      "cedulaIdentidad": "28411234"
+    },
+    {
+      "disponibilidad": true,
+      "nombre": "Sofia Ramos",
+      "numeroTelefono": "04123456789",
+      "cedulaIdentidad": "10112233"
+    },
+    {
+      "disponibilidad": false,
+      "nombre": "Ricardo Blanco",
+      "numeroTelefono": "04241234567",
+      "cedulaIdentidad": "12345678"
+    },
+    {
+      "disponibilidad": true,
+      "nombre": "Elena Castro",
+      "numeroTelefono": "04169876543",
+      "cedulaIdentidad": "13579135"
+    },
+    {
+      "disponibilidad": false,
+      "nombre": "Daniel Vargas",
+      "numeroTelefono": "04145678901"
+    },
+    {
+      "disponibilidad": true,
+      "nombre": "Andrea Soto",
+      "numeroTelefono": "04261122334",
+      "cedulaIdentidad": "15935780"
+    },
+    {
+      "disponibilidad": false,
+      "nombre": "Fernando Ruiz",
+      "numeroTelefono": "04127654321",
+      "cedulaIdentidad": "16825791"
+    },
+    {
+      "disponibilidad": true,
+      "nombre": "Laura Gimenez",
+      "numeroTelefono": "04248877665",
+      "cedulaIdentidad": "17398465"
+    }
+  ],
+  "pedido": [
+    {
+      "idPedido": "PED1",
+      "cliente": {
+        "direccion": "Calle Luna, Edif. Sol, Apto 1A",
+        "nombre": "Ana García",
+        "numeroTelefono": "04121112233",
+        "cedulaIdentidad": "12345678"
+      },
+      "direccionEntrega": "Calle Luna, Edif. Sol, Apto 1A",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "TRANSFERENCIA",
+      "requiereCambio": false,
+      "costoEntrega": 2.5,
+      "vuelto": 0.0,
+      "estado": "Entregado",
+      "fechaCreacion": "14/11/2023 10:00",
+      "fechaEntrega": "14/11/2023 11:00",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED3",
+      "cliente": {
+        "direccion": "Urb. El Bosque, Casa 10, Sector Verde",
+        "nombre": "María Lopez",
+        "numeroTelefono": "04161234567",
+        "cedulaIdentidad": "11223344"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Sofia Ramos",
+        "numeroTelefono": "04123456789",
+        "cedulaIdentidad": "10112233"
+      },
+      "direccionEntrega": "Urb. El Bosque, Casa 10, Sector Verde",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": false,
+      "costoEntrega": 2.0,
+      "vuelto": 0.0,
+      "estado": "Cancelado",
+      "fechaCreacion": "15/11/2023 09:30",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED4",
+      "cliente": {
+        "direccion": "Conj. Res. Vista Hermosa, Torre A, Apto 2B",
+        "nombre": "Carlos Sanchez",
+        "numeroTelefono": "04149876543",
+        "cedulaIdentidad": "55667788"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": false,
+        "nombre": "Ricardo Blanco",
+        "numeroTelefono": "04241234567",
+        "cedulaIdentidad": "12345678"
+      },
+      "direccionEntrega": "Conj. Res. Vista Hermosa, Torre A, Apto 2B",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": true,
+      "costoEntrega": 2.75,
+      "vuelto": 10.0,
+      "estado": "En Camino",
+      "fechaCreacion": "15/11/2023 11:00",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED5",
+      "cliente": {
+        "direccion": "Sector Pueblo Nuevo, Calle Real, Casa 3",
+        "nombre": "Isabel Ramirez",
+        "numeroTelefono": "04267654321",
+        "cedulaIdentidad": "99887766"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Elena Castro",
+        "numeroTelefono": "04169876543",
+        "cedulaIdentidad": "13579135"
+      },
+      "direccionEntrega": "Sector Pueblo Nuevo, Calle Real, Casa 3",
+      "combo": "PARA4",
+      "precioCombo": 27.99,
+      "metodoPago": "TRANSFERENCIA",
+      "requiereCambio": false,
+      "costoEntrega": 3.0,
+      "vuelto": 0.0,
+      "estado": "Entregado",
+      "fechaCreacion": "15/11/2023 14:00",
+      "fechaEntrega": "15/11/2023 15:30",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED6",
+      "cliente": {
+        "direccion": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+        "nombre": "Jorge Gonzalez",
+        "numeroTelefono": "04123344556",
+        "cedulaIdentidad": "33445566"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": false,
+        "nombre": "Daniel Vargas",
+        "numeroTelefono": "04145678901",
+        "cedulaIdentidad": "14725836"
+      },
+      "direccionEntrega": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": true,
+      "costoEntrega": 2.0,
+      "vuelto": 20.0,
+      "estado": "Cancelado",
+      "fechaCreacion": "16/11/2023 08:45",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED7",
+      "cliente": {
+        "direccion": "Res. Los Girasoles, Calle 2, Apto C-4",
+        "nombre": "Daniela Fernandez",
+        "numeroTelefono": "04241122330",
+        "cedulaIdentidad": "22110099"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Andrea Soto",
+        "numeroTelefono": "04261122334",
+        "cedulaIdentidad": "15935780"
+      },
+      "direccionEntrega": "Res. Los Girasoles, Calle 2, Apto C-4",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "TRANSFERENCIA",
+      "requiereCambio": false,
+      "costoEntrega": 2.5,
+      "vuelto": 0.0,
+      "estado": "En Camino",
+      "fechaCreacion": "16/11/2023 10:15",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED8",
+      "cliente": {
+        "direccion": "Casco Colonial, Calle del Medio, Casa #15",
+        "nombre": "Pablo Herrera",
+        "numeroTelefono": "04169988770",
+        "cedulaIdentidad": "77553311"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": false,
+        "nombre": "Fernando Ruiz",
+        "numeroTelefono": "04127654321",
+        "cedulaIdentidad": "16825791"
+      },
+      "direccionEntrega": "Casco Colonial, Calle del Medio, Casa #15",
+      "combo": "PARA4",
+      "precioCombo": 27.99,
+      "metodoPago": "PAGO_MOVIL",
+      "requiereCambio": false,
+      "costoEntrega": 3.0,
+      "vuelto": 0.0,
+      "estado": "Entregado",
+      "fechaCreacion": "16/11/2023 13:00",
+      "fechaEntrega": "16/11/2023 14:15",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED9",
+      "cliente": {
+        "direccion": "Urb. San Francisco, Av. Principal, Lote 8",
+        "nombre": "Camila Torres",
+        "numeroTelefono": "04127766550",
+        "cedulaIdentidad": "44332211"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Laura Gimenez",
+        "numeroTelefono": "04248877665",
+        "cedulaIdentidad": "17398465"
+      },
+      "direccionEntrega": "Urb. San Francisco, Av. Principal, Lote 8",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": true,
+      "costoEntrega": 2.0,
+      "vuelto": 15.0,
+      "estado": "Pendiente",
+      "fechaCreacion": "17/11/2023 09:00",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED10",
+      "cliente": {
+        "direccion": "Sector La Castellana, Calle N° 1, Qta. Flor",
+        "nombre": "Andres Soto",
+        "numeroTelefono": "04245544330",
+        "cedulaIdentidad": "88776655"
+      },
+      "direccionEntrega": "Sector La Castellana, Calle N° 1, Qta. Flor",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "TRANSFERENCIA",
+      "requiereCambio": false,
+      "costoEntrega": 2.5,
+      "vuelto": 0.0,
+      "estado": "En Camino",
+      "fechaCreacion": "17/11/2023 11:30",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED11",
+      "cliente": {
+        "direccion": "Av. Este, Edif. Amanecer, Piso 9, Apto 9C",
+        "nombre": "Valeria Diaz",
+        "numeroTelefono": "04163322110",
+        "cedulaIdentidad": "66442200"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Elena Castro",
+        "numeroTelefono": "04169876543",
+        "cedulaIdentidad": "13579135"
+      },
+      "direccionEntrega": "Av. Este, Edif. Amanecer, Piso 9, Apto 9C",
+      "combo": "PARA4",
+      "precioCombo": 27.99,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": true,
+      "costoEntrega": 3.0,
+      "vuelto": 8.0,
+      "estado": "Pendiente",
+      "fechaCreacion": "17/11/2023 14:45",
+      "fechaEntrega": "30/06/2025 12:47",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED12",
+      "cliente": {
+        "direccion": "Callejón El Sol, Casa sin número",
+        "nombre": "Francisco Morales",
+        "numeroTelefono": "04147788990",
+        "cedulaIdentidad": "12312312"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": false,
+        "nombre": "Miguel Herrera",
+        "numeroTelefono": "04147788991",
+        "cedulaIdentidad": "28411234"
+      },
+      "direccionEntrega": "Callejón El Sol, Casa sin número",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "PAGO_MOVIL",
+      "requiereCambio": false,
+      "costoEntrega": 2.0,
+      "vuelto": 0.0,
+      "estado": "Entregado",
+      "fechaCreacion": "18/11/2023 09:10",
+      "fechaEntrega": "18/11/2023 10:00",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED13",
+      "cliente": {
+        "direccion": "Res. Los Pinos, Bloque B, Apto 5",
+        "nombre": "Natalia Rodriguez",
+        "numeroTelefono": "04269900112",
+        "cedulaIdentidad": "98798798"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Sofia Ramos",
+        "numeroTelefono": "04123456789",
+        "cedulaIdentidad": "10112233"
+      },
+      "direccionEntrega": "Res. Los Pinos, Bloque B, Apto 5",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "TRANSFERENCIA",
+      "requiereCambio": false,
+      "costoEntrega": 2.5,
+      "vuelto": 0.0,
+      "estado": "Pendiente",
+      "fechaCreacion": "18/11/2023 11:40",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED14",
+      "cliente": {
+        "direccion": "Centro Ciudad, Av. Central, Local 10",
+        "nombre": "Roberto Vargas",
+        "numeroTelefono": "04125566778",
+        "cedulaIdentidad": "54354354"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": false,
+        "nombre": "Ricardo Blanco",
+        "numeroTelefono": "04241234567",
+        "cedulaIdentidad": "12345678"
+      },
+      "direccionEntrega": "Centro Ciudad, Av. Central, Local 10",
+      "combo": "PARA4",
+      "precioCombo": 27.99,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": true,
+      "costoEntrega": 3.0,
+      "vuelto": 12.0,
+      "estado": "En Camino",
+      "fechaCreacion": "18/11/2023 15:00",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED15",
+      "cliente": {
+        "direccion": "Sector Las Palmeras, Calle Principal, Casa Grande",
+        "nombre": "Gabriela Blanco",
+        "numeroTelefono": "04242233445",
+        "cedulaIdentidad": "21098765"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Elena Castro",
+        "numeroTelefono": "04169876543",
+        "cedulaIdentidad": "13579135"
+      },
+      "direccionEntrega": "Sector Las Palmeras, Calle Principal, Casa Grande",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "TRANSFERENCIA",
+      "requiereCambio": false,
+      "costoEntrega": 2.0,
+      "vuelto": 0.0,
+      "estado": "Entregado",
+      "fechaCreacion": "19/11/2023 09:50",
+      "fechaEntrega": "19/11/2023 10:40",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED16",
+      "cliente": {
+        "direccion": "Zona Industrial, Galpón #4",
+        "nombre": "Hector Perez",
+        "numeroTelefono": "04168899001",
+        "cedulaIdentidad": "67890123"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": false,
+        "nombre": "Daniel Vargas",
+        "numeroTelefono": "04145678901",
+        "cedulaIdentidad": "14725836"
+      },
+      "direccionEntrega": "Zona Industrial, Galpón #4",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": true,
+      "costoEntrega": 2.5,
+      "vuelto": 7.5,
+      "estado": "Pendiente",
+      "fechaCreacion": "19/11/2023 11:10",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED17",
+      "cliente": {
+        "direccion": "Urb. El Paraíso, Calle F, Edif. Luna",
+        "nombre": "Mariana Sanchez",
+        "numeroTelefono": "04143344556",
+        "cedulaIdentidad": "34567890"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Andrea Soto",
+        "numeroTelefono": "04261122334",
+        "cedulaIdentidad": "15935780"
+      },
+      "direccionEntrega": "Urb. El Paraíso, Calle F, Edif. Luna",
+      "combo": "PARA4",
+      "precioCombo": 27.99,
+      "metodoPago": "PAGO_MOVIL",
+      "requiereCambio": false,
+      "costoEntrega": 3.0,
+      "vuelto": 0.0,
+      "estado": "En Camino",
+      "fechaCreacion": "19/11/2023 14:20",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED18",
+      "cliente": {
+        "direccion": "Paseo La Estancia, Torre N, Oficina M",
+        "nombre": "Diego Acosta",
+        "numeroTelefono": "04267788990",
+        "cedulaIdentidad": "78901234"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": false,
+        "nombre": "Fernando Ruiz",
+        "numeroTelefono": "04127654321",
+        "cedulaIdentidad": "16825791"
+      },
+      "direccionEntrega": "Paseo La Estancia, Torre N, Oficina M",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "TRANSFERENCIA",
+      "requiereCambio": false,
+      "costoEntrega": 2.0,
+      "vuelto": 0.0,
+      "estado": "Entregado",
+      "fechaCreacion": "20/11/2023 08:00",
+      "fechaEntrega": "20/11/2023 08:55",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED19",
+      "cliente": {
+        "direccion": "Av. Universidad, Residencias Estudiantiles",
+        "nombre": "Laura Gomez",
+        "numeroTelefono": "04129988776",
+        "cedulaIdentidad": "10987654"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Laura Gimenez",
+        "numeroTelefono": "04248877665",
+        "cedulaIdentidad": "17398465"
+      },
+      "direccionEntrega": "Av. Universidad, Residencias Estudiantiles",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": true,
+      "costoEntrega": 2.5,
+      "vuelto": 10.0,
+      "estado": "Pendiente",
+      "fechaCreacion": "20/11/2023 10:30",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED20",
+      "cliente": {
+        "direccion": "Pueblo Viejo, Calle Única, Casa del Árbol",
+        "nombre": "Pedro Martinez",
+        "numeroTelefono": "04241100998",
+        "cedulaIdentidad": "56789012"
+      },
+      "direccionEntrega": "Pueblo Viejo, Calle Única, Casa del Árbol",
+      "combo": "PARA4",
+      "precioCombo": 27.99,
+      "metodoPago": "PAGO_MOVIL",
+      "requiereCambio": false,
+      "costoEntrega": 3.0,
+      "vuelto": 0.0,
+      "estado": "En Camino",
+      "fechaCreacion": "20/11/2023 12:45",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED21",
+      "cliente": {
+        "direccion": "Calle Luna, Edif. Sol, Apto 1A",
+        "nombre": "Ana García",
+        "numeroTelefono": "04121112233",
+        "cedulaIdentidad": "12345678"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Carla Rodríguez",
+        "numeroTelefono": "04265556677",
+        "cedulaIdentidad": "22456109"
+      },
+      "direccionEntrega": "Calle Luna, Edif. Sol, Apto 1A",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": true,
+      "costoEntrega": 2.0,
+      "vuelto": 5.0,
+      "estado": "Entregado",
+      "fechaCreacion": "21/11/2023 09:00",
+      "fechaEntrega": "21/11/2023 10:10",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED23",
+      "cliente": {
+        "direccion": "Urb. El Bosque, Casa 10, Sector Verde",
+        "nombre": "María Lopez",
+        "numeroTelefono": "04161234567",
+        "cedulaIdentidad": "11223344"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": false,
+        "nombre": "Ricardo Blanco",
+        "numeroTelefono": "04241234567",
+        "cedulaIdentidad": "12345678"
+      },
+      "direccionEntrega": "Urb. El Bosque, Casa 10, Sector Verde",
+      "combo": "PARA4",
+      "precioCombo": 27.99,
+      "metodoPago": "PAGO_MOVIL",
+      "requiereCambio": false,
+      "costoEntrega": 3.0,
+      "vuelto": 0.0,
+      "estado": "En Camino",
+      "fechaCreacion": "21/11/2023 14:00",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED24",
+      "cliente": {
+        "direccion": "Conj. Res. Vista Hermosa, Torre A, Apto 2B",
+        "nombre": "Carlos Sanchez",
+        "numeroTelefono": "04149876543",
+        "cedulaIdentidad": "55667788"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Elena Castro",
+        "numeroTelefono": "04169876543",
+        "cedulaIdentidad": "13579135"
+      },
+      "direccionEntrega": "Conj. Res. Vista Hermosa, Torre A, Apto 2B",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": true,
+      "costoEntrega": 2.0,
+      "vuelto": 10.0,
+      "estado": "Entregado",
+      "fechaCreacion": "22/11/2023 09:30",
+      "fechaEntrega": "22/11/2023 10:45",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED25",
+      "cliente": {
+        "direccion": "Sector Pueblo Nuevo, Calle Real, Casa 3",
+        "nombre": "Isabel Ramirez",
+        "numeroTelefono": "04267654321",
+        "cedulaIdentidad": "99887766"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": false,
+        "nombre": "Daniel Vargas",
+        "numeroTelefono": "04145678901",
+        "cedulaIdentidad": "14725836"
+      },
+      "direccionEntrega": "Sector Pueblo Nuevo, Calle Real, Casa 3",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "TRANSFERENCIA",
+      "requiereCambio": false,
+      "costoEntrega": 2.5,
+      "vuelto": 0.0,
+      "estado": "Pendiente",
+      "fechaCreacion": "22/11/2023 11:00",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED26",
+      "cliente": {
+        "direccion": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+        "nombre": "Jorge Gonzalez",
+        "numeroTelefono": "04123344556",
+        "cedulaIdentidad": "33445566"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Andrea Soto",
+        "numeroTelefono": "04261122334",
+        "cedulaIdentidad": "15935780"
+      },
+      "direccionEntrega": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+      "combo": "PARA4",
+      "precioCombo": 27.99,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": true,
+      "costoEntrega": 3.0,
+      "vuelto": 2.0,
+      "estado": "En Camino",
+      "fechaCreacion": "22/11/2023 14:30",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED27",
+      "cliente": {
+        "direccion": "Res. Los Girasoles, Calle 2, Apto C-4",
+        "nombre": "Daniela Fernandez",
+        "numeroTelefono": "04241122330",
+        "cedulaIdentidad": "22110099"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": false,
+        "nombre": "Fernando Ruiz",
+        "numeroTelefono": "04127654321",
+        "cedulaIdentidad": "16825791"
+      },
+      "direccionEntrega": "Res. Los Girasoles, Calle 2, Apto C-4",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "PAGO_MOVIL",
+      "requiereCambio": false,
+      "costoEntrega": 2.0,
+      "vuelto": 0.0,
+      "estado": "Entregado",
+      "fechaCreacion": "23/11/2023 08:10",
+      "fechaEntrega": "23/11/2023 09:00",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED28",
+      "cliente": {
+        "direccion": "Casco Colonial, Calle del Medio, Casa #15",
+        "nombre": "Pablo Herrera",
+        "numeroTelefono": "04169988770",
+        "cedulaIdentidad": "77553311"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Laura Gimenez",
+        "numeroTelefono": "04248877665",
+        "cedulaIdentidad": "17398465"
+      },
+      "direccionEntrega": "Casco Colonial, Calle del Medio, Casa #15",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": true,
+      "costoEntrega": 2.5,
+      "vuelto": 5.0,
+      "estado": "Pendiente",
+      "fechaCreacion": "23/11/2023 10:20",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED29",
+      "cliente": {
+        "direccion": "Urb. San Francisco, Av. Principal, Lote 8",
+        "nombre": "Camila Torres",
+        "numeroTelefono": "04127766550",
+        "cedulaIdentidad": "44332211"
+      },
+      "direccionEntrega": "Urb. San Francisco, Av. Principal, Lote 8",
+      "combo": "PARA4",
+      "precioCombo": 27.99,
+      "metodoPago": "TRANSFERENCIA",
+      "requiereCambio": false,
+      "costoEntrega": 3.0,
+      "vuelto": 0.0,
+      "estado": "En Camino",
+      "fechaCreacion": "23/11/2023 13:10",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED30",
+      "cliente": {
+        "direccion": "Sector La Castellana, Calle N° 1, Qta. Flor",
+        "nombre": "Andres Soto",
+        "numeroTelefono": "04245544330",
+        "cedulaIdentidad": "88776655"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Carla Rodríguez",
+        "numeroTelefono": "04265556677",
+        "cedulaIdentidad": "22456109"
+      },
+      "direccionEntrega": "Sector La Castellana, Calle N° 1, Qta. Flor",
+      "combo": "PARA2",
+      "precioCombo": 15.95,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": true,
+      "costoEntrega": 2.0,
+      "vuelto": 10.0,
+      "estado": "Entregado",
+      "fechaCreacion": "24/11/2023 09:40",
+      "fechaEntrega": "02/07/2025 21:41",
+      "montoTotal": 0.0
+    },
+    {
+      "idPedido": "PED30072",
+      "cliente": {
+        "direccion": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+        "nombre": "Jorge Gonzalez",
+        "numeroTelefono": "04123344556",
+        "cedulaIdentidad": "33445566"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Carla Rodríguez",
+        "numeroTelefono": "04265556677",
+        "cedulaIdentidad": "22456109"
+      },
+      "direccionEntrega": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+      "combo": "PARA4",
+      "precioCombo": 27.99,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": false,
+      "costoEntrega": 2.0,
+      "vuelto": 0.0,
+      "estado": "Cancelado",
+      "fechaCreacion": "29/06/2025 12:38",
+      "fechaEntrega": "02/07/2025 21:41",
+      "montoTotal": 29.99
+    },
+    {
+      "idPedido": "PED406",
+      "cliente": {
+        "direccion": "Calle Luna, Edif. Sol, Apto 1A",
+        "nombre": "Ana García",
+        "numeroTelefono": "04121112233",
+        "cedulaIdentidad": "12345678"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Elena Castro",
+        "numeroTelefono": "04169876543",
+        "cedulaIdentidad": "13579135"
+      },
+      "direccionEntrega": "Calle Luna, Edif. Sol, Apto 1A",
+      "combo": "PARA4",
+      "precioCombo": 27.99,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": false,
+      "costoEntrega": 0.0,
+      "vuelto": 0.0,
+      "estado": "Pendiente",
+      "fechaCreacion": "02/07/2025 20:37",
+      "montoTotal": 27.99
+    },
+    {
+      "idPedido": "PED892",
+      "cliente": {
+        "direccion": "Calle Luna, Edif. Sol, Apto 1A",
+        "nombre": "Ana García",
+        "numeroTelefono": "04121112233",
+        "cedulaIdentidad": "12345678"
+      },
+      "repartidorAsignado": {
+        "disponibilidad": true,
+        "nombre": "Sofia Ramos",
+        "numeroTelefono": "04123456789",
+        "cedulaIdentidad": "10112233"
+      },
+      "direccionEntrega": "Calle Luna, Edif. Sol, Apto 1A",
+      "combo": "PARA4",
+      "precioCombo": 27.99,
+      "metodoPago": "EFECTIVO",
+      "requiereCambio": false,
+      "costoEntrega": 8.0,
+      "vuelto": 0.0,
+      "estado": "Pendiente",
+      "fechaCreacion": "02/07/2025 21:15",
+      "montoTotal": 35.989999999999995
+    }
+  ],
+  "cliente": [
+    {
+      "direccion": "Calle Luna, Edif. Sol, Apto 1A",
+      "nombre": "Ana García",
+      "numeroTelefono": "04121112233",
+      "cedulaIdentidad": "12345678"
+    },
+    {
+      "direccion": "Urb. El Bosque, Casa 10, Sector Verde",
+      "nombre": "María Lopez",
+      "numeroTelefono": "04161234567",
+      "cedulaIdentidad": "11223344"
+    },
+    {
+      "direccion": "Conj. Res. Vista Hermosa, Torre A, Apto 2B",
+      "nombre": "Carlos Sanchez",
+      "numeroTelefono": "04149876543",
+      "cedulaIdentidad": "55667788"
+    },
+    {
+      "direccion": "Sector Pueblo Nuevo, Calle Real, Casa 3",
+      "nombre": "Isabel Ramirez",
+      "numeroTelefono": "04267654321",
+      "cedulaIdentidad": "99887766"
+    },
+    {
+      "direccion": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+      "nombre": "Jorge Gonzalez",
+      "numeroTelefono": "04123344556",
+      "cedulaIdentidad": "33445566"
+    },
+    {
+      "direccion": "Res. Los Girasoles, Calle 2, Apto C-4",
+      "nombre": "Daniela Fernandez",
+      "numeroTelefono": "04241122330",
+      "cedulaIdentidad": "22110099"
+    },
+    {
+      "direccion": "Casco Colonial, Calle del Medio, Casa #15",
+      "nombre": "Pablo Herrera",
+      "numeroTelefono": "04169988770",
+      "cedulaIdentidad": "77553311"
+    },
+    {
+      "direccion": "Urb. San Francisco, Av. Principal, Lote 8",
+      "nombre": "Camila Torres",
+      "numeroTelefono": "04127766550",
+      "cedulaIdentidad": "44332211"
+    },
+    {
+      "direccion": "Sector La Castellana, Calle N° 1, Qta. Flor",
+      "nombre": "Andres Soto",
+      "numeroTelefono": "04245544330",
+      "cedulaIdentidad": "88776655"
+    },
+    {
+      "direccion": "Av. Este, Edif. Amanecer, Piso 9, Apto 9C",
+      "nombre": "Valeria Diaz",
+      "numeroTelefono": "04163322110",
+      "cedulaIdentidad": "66442200"
+    },
+    {
+      "direccion": "Callejón El Sol, Casa sin número",
+      "nombre": "Francisco Morales",
+      "numeroTelefono": "04147788990",
+      "cedulaIdentidad": "12312312"
+    },
+    {
+      "direccion": "Res. Los Pinos, Bloque B, Apto 5",
+      "nombre": "Natalia Rodriguez",
+      "numeroTelefono": "04269900112",
+      "cedulaIdentidad": "38923455"
+    },
+    {
+      "direccion": "Centro Ciudad, Av. Central, Local 10",
+      "nombre": "Roberto Vargas",
+      "numeroTelefono": "04125566778",
+      "cedulaIdentidad": "54354354"
+    },
+    {
+      "direccion": "Sector Las Palmeras, Calle Principal, Casa Grande",
+      "nombre": "Gabriela Blanco",
+      "numeroTelefono": "04242233445",
+      "cedulaIdentidad": "21098765"
+    },
+    {
+      "direccion": "Zona Industrial, Galpón #4",
+      "nombre": "Hector Perez",
+      "numeroTelefono": "04168899001",
+      "cedulaIdentidad": "67890123"
+    },
+    {
+      "direccion": "Urb. El Paraíso, Calle F, Edif. Luna",
+      "nombre": "Mariana Sanchez",
+      "numeroTelefono": "04143344556",
+      "cedulaIdentidad": "34567890"
+    },
+    {
+      "direccion": "Paseo La Estancia, Torre N, Oficina M",
+      "nombre": "Diego Acosta",
+      "numeroTelefono": "04267788990",
+      "cedulaIdentidad": "78901234"
+    },
+    {
+      "direccion": "Av. Universidad, Residencias Estudiantiles",
+      "nombre": "Laura Gomez",
+      "numeroTelefono": "04129988776",
+      "cedulaIdentidad": "10987654"
+    },
+    {
+      "direccion": "Pueblo Viejo, Calle Única, Casa del Árbol",
+      "nombre": "Pedro Martinez",
+      "numeroTelefono": "04241100998",
+      "cedulaIdentidad": "56789012"
+    },
+    {
+      "direccion": "gu",
+      "nombre": "ju",
+      "numeroTelefono": "04125403992",
+      "cedulaIdentidad": "23664499"
+    }
+  ],
+  "historial": [
+    {
+      "idHistorial": "HIST001",
+      "pedidoAsociado": {
+        "idPedido": "PED1",
+        "cliente": {
+          "direccion": "Calle Luna, Edif. Sol, Apto 1A",
+          "nombre": "Ana García",
+          "numeroTelefono": "04121112233",
+          "cedulaIdentidad": "12345678"
+        },
+        "direccionEntrega": "Calle Luna, Edif. Sol, Apto 1A",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "TRANSFERENCIA",
+        "requiereCambio": false,
+        "costoEntrega": 2.5,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "14/11/2023 10:00",
+        "fechaEntrega": "14/11/2023 11:00",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "José Martínez",
+        "numeroTelefono": "04167891234",
+        "cedulaIdentidad": "19674321"
+      },
+      "fechaRegistro": "14/11/2023 10:00",
+      "estadoEntrega": "Preparando",
+      "ubicacionEntrega": "Cocina"
+    },
+    {
+      "idHistorial": "HIST002",
+      "pedidoAsociado": {
+        "idPedido": "PED1",
+        "cliente": {
+          "direccion": "Calle Luna, Edif. Sol, Apto 1A",
+          "nombre": "Ana García",
+          "numeroTelefono": "04121112233",
+          "cedulaIdentidad": "12345678"
+        },
+        "direccionEntrega": "Calle Luna, Edif. Sol, Apto 1A",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "TRANSFERENCIA",
+        "requiereCambio": false,
+        "costoEntrega": 2.5,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "14/11/2023 10:00",
+        "fechaEntrega": "14/11/2023 11:00",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "José Martínez",
+        "numeroTelefono": "04167891234",
+        "cedulaIdentidad": "19674321"
+      },
+      "fechaRegistro": "14/11/2023 10:30",
+      "estadoEntrega": "En Camino",
+      "ubicacionEntrega": "En ruta a Calle Luna"
+    },
+    {
+      "idHistorial": "HIST003",
+      "pedidoAsociado": {
+        "idPedido": "PED1",
+        "cliente": {
+          "direccion": "Calle Luna, Edif. Sol, Apto 1A",
+          "nombre": "Ana García",
+          "numeroTelefono": "04121112233",
+          "cedulaIdentidad": "12345678"
+        },
+        "direccionEntrega": "Calle Luna, Edif. Sol, Apto 1A",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "TRANSFERENCIA",
+        "requiereCambio": false,
+        "costoEntrega": 2.5,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "14/11/2023 10:00",
+        "fechaEntrega": "14/11/2023 11:00",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "José Martínez",
+        "numeroTelefono": "04167891234",
+        "cedulaIdentidad": "19674321"
+      },
+      "fechaRegistro": "14/11/2023 11:00",
+      "estadoEntrega": "Entregado",
+      "ubicacionEntrega": "Cliente"
+    },
+    {
+      "idHistorial": "HIST005",
+      "pedidoAsociado": {
+        "idPedido": "PED2",
+        "cliente": {
+          "direccion": "Av. Principal, Res. Primavera, Casa 5",
+          "nombre": "Luis Pérez",
+          "numeroTelefono": "04249998877",
+          "cedulaIdentidad": "87654321"
+        },
+        "direccionEntrega": "Av. Principal, Res. Primavera, Casa 5",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 3.0,
+        "vuelto": 5.0,
+        "estado": "En Camino",
+        "fechaCreacion": "14/11/2023 12:00",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Carla Rodríguez",
+        "numeroTelefono": "04265556677",
+        "cedulaIdentidad": "22456109"
+      },
+      "fechaRegistro": "14/11/2023 12:05",
+      "estadoEntrega": "En Camino",
+      "ubicacionEntrega": "En ruta a Av. Principal"
+    },
+    {
+      "idHistorial": "HIST006",
+      "pedidoAsociado": {
+        "idPedido": "PED3",
+        "cliente": {
+          "direccion": "Urb. El Bosque, Casa 10, Sector Verde",
+          "nombre": "María Lopez",
+          "numeroTelefono": "04161234567",
+          "cedulaIdentidad": "11223344"
+        },
+        "direccionEntrega": "Urb. El Bosque, Casa 10, Sector Verde",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": false,
+        "costoEntrega": 2.0,
+        "vuelto": 0.0,
+        "estado": "Pendiente",
+        "fechaCreacion": "15/11/2023 09:30",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Sofia Ramos",
+        "numeroTelefono": "04123456789",
+        "cedulaIdentidad": "10112233"
+      },
+      "fechaRegistro": "15/11/2023 09:30",
+      "estadoEntrega": "Preparando",
+      "ubicacionEntrega": "Cocina"
+    },
+    {
+      "idHistorial": "HIST007",
+      "pedidoAsociado": {
+        "idPedido": "PED4",
+        "cliente": {
+          "direccion": "Conj. Res. Vista Hermosa, Torre A, Apto 2B",
+          "nombre": "Carlos Sanchez",
+          "numeroTelefono": "04149876543",
+          "cedulaIdentidad": "55667788"
+        },
+        "direccionEntrega": "Conj. Res. Vista Hermosa, Torre A, Apto 2B",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 2.75,
+        "vuelto": 10.0,
+        "estado": "En Camino",
+        "fechaCreacion": "15/11/2023 11:00",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "Ricardo Blanco",
+        "numeroTelefono": "04241234567",
+        "cedulaIdentidad": "12345678"
+      },
+      "fechaRegistro": "15/11/2023 11:00",
+      "estadoEntrega": "En Camino",
+      "ubicacionEntrega": "En ruta a Conj. Res. Vista Hermosa"
+    },
+    {
+      "idHistorial": "HIST008",
+      "pedidoAsociado": {
+        "idPedido": "PED5",
+        "cliente": {
+          "direccion": "Sector Pueblo Nuevo, Calle Real, Casa 3",
+          "nombre": "Isabel Ramirez",
+          "numeroTelefono": "04267654321",
+          "cedulaIdentidad": "99887766"
+        },
+        "direccionEntrega": "Sector Pueblo Nuevo, Calle Real, Casa 3",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "TRANSFERENCIA",
+        "requiereCambio": false,
+        "costoEntrega": 3.0,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "15/11/2023 14:00",
+        "fechaEntrega": "15/11/2023 15:30",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Elena Castro",
+        "numeroTelefono": "04169876543",
+        "cedulaIdentidad": "13579135"
+      },
+      "fechaRegistro": "15/11/2023 14:00",
+      "estadoEntrega": "Preparando",
+      "ubicacionEntrega": "Cocina"
+    },
+    {
+      "idHistorial": "HIST009",
+      "pedidoAsociado": {
+        "idPedido": "PED5",
+        "cliente": {
+          "direccion": "Sector Pueblo Nuevo, Calle Real, Casa 3",
+          "nombre": "Isabel Ramirez",
+          "numeroTelefono": "04267654321",
+          "cedulaIdentidad": "99887766"
+        },
+        "direccionEntrega": "Sector Pueblo Nuevo, Calle Real, Casa 3",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "TRANSFERENCIA",
+        "requiereCambio": false,
+        "costoEntrega": 3.0,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "15/11/2023 14:00",
+        "fechaEntrega": "15/11/2023 15:30",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Elena Castro",
+        "numeroTelefono": "04169876543",
+        "cedulaIdentidad": "13579135"
+      },
+      "fechaRegistro": "15/11/2023 15:30",
+      "estadoEntrega": "Entregado",
+      "ubicacionEntrega": "Cliente"
+    },
+    {
+      "idHistorial": "HIST010",
+      "pedidoAsociado": {
+        "idPedido": "PED6",
+        "cliente": {
+          "direccion": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+          "nombre": "Jorge Gonzalez",
+          "numeroTelefono": "04123344556",
+          "cedulaIdentidad": "33445566"
+        },
+        "direccionEntrega": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 2.0,
+        "vuelto": 20.0,
+        "estado": "Pendiente",
+        "fechaCreacion": "16/11/2023 08:45",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "Daniel Vargas",
+        "numeroTelefono": "04145678901",
+        "cedulaIdentidad": "14725836"
+      },
+      "fechaRegistro": "16/11/2023 08:45",
+      "estadoEntrega": "Preparando",
+      "ubicacionEntrega": "Cocina"
+    },
+    {
+      "idHistorial": "HIST011",
+      "pedidoAsociado": {
+        "idPedido": "PED7",
+        "cliente": {
+          "direccion": "Res. Los Girasoles, Calle 2, Apto C-4",
+          "nombre": "Daniela Fernandez",
+          "numeroTelefono": "04241122330",
+          "cedulaIdentidad": "22110099"
+        },
+        "direccionEntrega": "Res. Los Girasoles, Calle 2, Apto C-4",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "TRANSFERENCIA",
+        "requiereCambio": false,
+        "costoEntrega": 2.5,
+        "vuelto": 0.0,
+        "estado": "En Camino",
+        "fechaCreacion": "16/11/2023 10:15",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Andrea Soto",
+        "numeroTelefono": "04261122334",
+        "cedulaIdentidad": "15935780"
+      },
+      "fechaRegistro": "16/11/2023 10:15",
+      "estadoEntrega": "En Camino",
+      "ubicacionEntrega": "En ruta a Res. Los Girasoles"
+    },
+    {
+      "idHistorial": "HIST012",
+      "pedidoAsociado": {
+        "idPedido": "PED8",
+        "cliente": {
+          "direccion": "Casco Colonial, Calle del Medio, Casa #15",
+          "nombre": "Pablo Herrera",
+          "numeroTelefono": "04169988770",
+          "cedulaIdentidad": "77553311"
+        },
+        "direccionEntrega": "Casco Colonial, Calle del Medio, Casa #15",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "PAGO_MOVIL",
+        "requiereCambio": false,
+        "costoEntrega": 3.0,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "16/11/2023 13:00",
+        "fechaEntrega": "16/11/2023 14:15",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "Fernando Ruiz",
+        "numeroTelefono": "04127654321",
+        "cedulaIdentidad": "16825791"
+      },
+      "fechaRegistro": "16/11/2023 13:00",
+      "estadoEntrega": "Preparando",
+      "ubicacionEntrega": "Cocina"
+    },
+    {
+      "idHistorial": "HIST013",
+      "pedidoAsociado": {
+        "idPedido": "PED8",
+        "cliente": {
+          "direccion": "Casco Colonial, Calle del Medio, Casa #15",
+          "nombre": "Pablo Herrera",
+          "numeroTelefono": "04169988770",
+          "cedulaIdentidad": "77553311"
+        },
+        "direccionEntrega": "Casco Colonial, Calle del Medio, Casa #15",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "PAGO_MOVIL",
+        "requiereCambio": false,
+        "costoEntrega": 3.0,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "16/11/2023 13:00",
+        "fechaEntrega": "16/11/2023 14:15",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "Fernando Ruiz",
+        "numeroTelefono": "04127654321",
+        "cedulaIdentidad": "16825791"
+      },
+      "fechaRegistro": "16/11/2023 14:15",
+      "estadoEntrega": "Entregado",
+      "ubicacionEntrega": "Cliente"
+    },
+    {
+      "idHistorial": "HIST014",
+      "pedidoAsociado": {
+        "idPedido": "PED9",
+        "cliente": {
+          "direccion": "Urb. San Francisco, Av. Principal, Lote 8",
+          "nombre": "Camila Torres",
+          "numeroTelefono": "04127766550",
+          "cedulaIdentidad": "44332211"
+        },
+        "direccionEntrega": "Urb. San Francisco, Av. Principal, Lote 8",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 2.0,
+        "vuelto": 15.0,
+        "estado": "Pendiente",
+        "fechaCreacion": "17/11/2023 09:00",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Laura Gimenez",
+        "numeroTelefono": "04248877665",
+        "cedulaIdentidad": "17398465"
+      },
+      "fechaRegistro": "17/11/2023 09:00",
+      "estadoEntrega": "Preparando",
+      "ubicacionEntrega": "Cocina"
+    },
+    {
+      "idHistorial": "HIST015",
+      "pedidoAsociado": {
+        "idPedido": "PED10",
+        "cliente": {
+          "direccion": "Sector La Castellana, Calle N° 1, Qta. Flor",
+          "nombre": "Andres Soto",
+          "numeroTelefono": "04245544330",
+          "cedulaIdentidad": "88776655"
+        },
+        "direccionEntrega": "Sector La Castellana, Calle N° 1, Qta. Flor",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "TRANSFERENCIA",
+        "requiereCambio": false,
+        "costoEntrega": 2.5,
+        "vuelto": 0.0,
+        "estado": "En Camino",
+        "fechaCreacion": "17/11/2023 11:30",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "José Martínez",
+        "numeroTelefono": "04167891234",
+        "cedulaIdentidad": "19674321"
+      },
+      "fechaRegistro": "17/11/2023 11:30",
+      "estadoEntrega": "En Camino",
+      "ubicacionEntrega": "En ruta a Sector La Castellana"
+    },
+    {
+      "idHistorial": "HIST016",
+      "pedidoAsociado": {
+        "idPedido": "PED11",
+        "cliente": {
+          "direccion": "Av. Este, Edif. Amanecer, Piso 9, Apto 9C",
+          "nombre": "Valeria Diaz",
+          "numeroTelefono": "04163322110",
+          "cedulaIdentidad": "66442200"
+        },
+        "direccionEntrega": "Av. Este, Edif. Amanecer, Piso 9, Apto 9C",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 3.0,
+        "vuelto": 8.0,
+        "estado": "Pendiente",
+        "fechaCreacion": "17/11/2023 14:45",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Carla Rodríguez",
+        "numeroTelefono": "04265556677",
+        "cedulaIdentidad": "22456109"
+      },
+      "fechaRegistro": "17/11/2023 14:45",
+      "estadoEntrega": "Preparando",
+      "ubicacionEntrega": "Cocina"
+    },
+    {
+      "idHistorial": "HIST017",
+      "pedidoAsociado": {
+        "idPedido": "PED12",
+        "cliente": {
+          "direccion": "Callejón El Sol, Casa sin número",
+          "nombre": "Francisco Morales",
+          "numeroTelefono": "04147788990",
+          "cedulaIdentidad": "12312312"
+        },
+        "direccionEntrega": "Callejón El Sol, Casa sin número",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "PAGO_MOVIL",
+        "requiereCambio": false,
+        "costoEntrega": 2.0,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "18/11/2023 09:10",
+        "fechaEntrega": "18/11/2023 10:00",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "Miguel Herrera",
+        "numeroTelefono": "04147788991",
+        "cedulaIdentidad": "28411234"
+      },
+      "fechaRegistro": "18/11/2023 09:10",
+      "estadoEntrega": "Preparando",
+      "ubicacionEntrega": "Cocina"
+    },
+    {
+      "idHistorial": "HIST018",
+      "pedidoAsociado": {
+        "idPedido": "PED12",
+        "cliente": {
+          "direccion": "Callejón El Sol, Casa sin número",
+          "nombre": "Francisco Morales",
+          "numeroTelefono": "04147788990",
+          "cedulaIdentidad": "12312312"
+        },
+        "direccionEntrega": "Callejón El Sol, Casa sin número",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "PAGO_MOVIL",
+        "requiereCambio": false,
+        "costoEntrega": 2.0,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "18/11/2023 09:10",
+        "fechaEntrega": "18/11/2023 10:00",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "Miguel Herrera",
+        "numeroTelefono": "04147788991",
+        "cedulaIdentidad": "28411234"
+      },
+      "fechaRegistro": "18/11/2023 10:00",
+      "estadoEntrega": "Entregado",
+      "ubicacionEntrega": "Cliente"
+    },
+    {
+      "idHistorial": "HIST019",
+      "pedidoAsociado": {
+        "idPedido": "PED13",
+        "cliente": {
+          "direccion": "Res. Los Pinos, Bloque B, Apto 5",
+          "nombre": "Natalia Rodriguez",
+          "numeroTelefono": "04269900112",
+          "cedulaIdentidad": "98798798"
+        },
+        "direccionEntrega": "Res. Los Pinos, Bloque B, Apto 5",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "TRANSFERENCIA",
+        "requiereCambio": false,
+        "costoEntrega": 2.5,
+        "vuelto": 0.0,
+        "estado": "Pendiente",
+        "fechaCreacion": "18/11/2023 11:40",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Sofia Ramos",
+        "numeroTelefono": "04123456789",
+        "cedulaIdentidad": "10112233"
+      },
+      "fechaRegistro": "18/11/2023 11:40",
+      "estadoEntrega": "En Camino",
+      "ubicacionEntrega": "En ruta a Res. Los Pinos"
+    },
+    {
+      "idHistorial": "HIST020",
+      "pedidoAsociado": {
+        "idPedido": "PED14",
+        "cliente": {
+          "direccion": "Centro Ciudad, Av. Central, Local 10",
+          "nombre": "Roberto Vargas",
+          "numeroTelefono": "04125566778",
+          "cedulaIdentidad": "54354354"
+        },
+        "direccionEntrega": "Centro Ciudad, Av. Central, Local 10",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 3.0,
+        "vuelto": 12.0,
+        "estado": "En Camino",
+        "fechaCreacion": "18/11/2023 15:00",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "Ricardo Blanco",
+        "numeroTelefono": "04241234567",
+        "cedulaIdentidad": "12345678"
+      },
+      "fechaRegistro": "18/11/2023 15:00",
+      "estadoEntrega": "En Camino",
+      "ubicacionEntrega": "En ruta a Centro Ciudad"
+    },
+    {
+      "idHistorial": "HIST021",
+      "pedidoAsociado": {
+        "idPedido": "PED15",
+        "cliente": {
+          "direccion": "Sector Las Palmeras, Calle Principal, Casa Grande",
+          "nombre": "Gabriela Blanco",
+          "numeroTelefono": "04242233445",
+          "cedulaIdentidad": "21098765"
+        },
+        "direccionEntrega": "Sector Las Palmeras, Calle Principal, Casa Grande",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "TRANSFERENCIA",
+        "requiereCambio": false,
+        "costoEntrega": 2.0,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "19/11/2023 09:50",
+        "fechaEntrega": "19/11/2023 10:40",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Elena Castro",
+        "numeroTelefono": "04169876543",
+        "cedulaIdentidad": "13579135"
+      },
+      "fechaRegistro": "19/11/2023 09:50",
+      "estadoEntrega": "Preparando",
+      "ubicacionEntrega": "Cocina"
+    },
+    {
+      "idHistorial": "HIST022",
+      "pedidoAsociado": {
+        "idPedido": "PED15",
+        "cliente": {
+          "direccion": "Sector Las Palmeras, Calle Principal, Casa Grande",
+          "nombre": "Gabriela Blanco",
+          "numeroTelefono": "04242233445",
+          "cedulaIdentidad": "21098765"
+        },
+        "direccionEntrega": "Sector Las Palmeras, Calle Principal, Casa Grande",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "TRANSFERENCIA",
+        "requiereCambio": false,
+        "costoEntrega": 2.0,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "19/11/2023 09:50",
+        "fechaEntrega": "19/11/2023 10:40",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Elena Castro",
+        "numeroTelefono": "04169876543",
+        "cedulaIdentidad": "13579135"
+      },
+      "fechaRegistro": "19/11/2023 10:40",
+      "estadoEntrega": "Entregado",
+      "ubicacionEntrega": "Cliente"
+    },
+    {
+      "idHistorial": "HIST023",
+      "pedidoAsociado": {
+        "idPedido": "PED16",
+        "cliente": {
+          "direccion": "Zona Industrial, Galpón #4",
+          "nombre": "Hector Perez",
+          "numeroTelefono": "04168899001",
+          "cedulaIdentidad": "67890123"
+        },
+        "direccionEntrega": "Zona Industrial, Galpón #4",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 2.5,
+        "vuelto": 7.5,
+        "estado": "Pendiente",
+        "fechaCreacion": "19/11/2023 11:10",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "Daniel Vargas",
+        "numeroTelefono": "04145678901",
+        "cedulaIdentidad": "14725836"
+      },
+      "fechaRegistro": "19/11/2023 11:10",
+      "estadoEntrega": "En Camino",
+      "ubicacionEntrega": "En ruta a Zona Industrial"
+    },
+    {
+      "idHistorial": "HIST024",
+      "pedidoAsociado": {
+        "idPedido": "PED17",
+        "cliente": {
+          "direccion": "Urb. El Paraíso, Calle F, Edif. Luna",
+          "nombre": "Mariana Sanchez",
+          "numeroTelefono": "04143344556",
+          "cedulaIdentidad": "34567890"
+        },
+        "direccionEntrega": "Urb. El Paraíso, Calle F, Edif. Luna",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "PAGO_MOVIL",
+        "requiereCambio": false,
+        "costoEntrega": 3.0,
+        "vuelto": 0.0,
+        "estado": "En Camino",
+        "fechaCreacion": "19/11/2023 14:20",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Andrea Soto",
+        "numeroTelefono": "04261122334",
+        "cedulaIdentidad": "15935780"
+      },
+      "fechaRegistro": "19/11/2023 14:20",
+      "estadoEntrega": "En Camino",
+      "ubicacionEntrega": "En ruta a Urb. El Paraíso"
+    },
+    {
+      "idHistorial": "HIST025",
+      "pedidoAsociado": {
+        "idPedido": "PED18",
+        "cliente": {
+          "direccion": "Paseo La Estancia, Torre N, Oficina M",
+          "nombre": "Diego Acosta",
+          "numeroTelefono": "04267788990",
+          "cedulaIdentidad": "78901234"
+        },
+        "direccionEntrega": "Paseo La Estancia, Torre N, Oficina M",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "TRANSFERENCIA",
+        "requiereCambio": false,
+        "costoEntrega": 2.0,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "20/11/2023 08:00",
+        "fechaEntrega": "20/11/2023 08:55",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "Fernando Ruiz",
+        "numeroTelefono": "04127654321",
+        "cedulaIdentidad": "16825791"
+      },
+      "fechaRegistro": "20/11/2023 08:00",
+      "estadoEntrega": "Preparando",
+      "ubicacionEntrega": "Cocina"
+    },
+    {
+      "idHistorial": "HIST026",
+      "pedidoAsociado": {
+        "idPedido": "PED18",
+        "cliente": {
+          "direccion": "Paseo La Estancia, Torre N, Oficina M",
+          "nombre": "Diego Acosta",
+          "numeroTelefono": "04267788990",
+          "cedulaIdentidad": "78901234"
+        },
+        "direccionEntrega": "Paseo La Estancia, Torre N, Oficina M",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "TRANSFERENCIA",
+        "requiereCambio": false,
+        "costoEntrega": 2.0,
+        "vuelto": 0.0,
+        "estado": "Entregado",
+        "fechaCreacion": "20/11/2023 08:00",
+        "fechaEntrega": "20/11/2023 08:55",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "Fernando Ruiz",
+        "numeroTelefono": "04127654321",
+        "cedulaIdentidad": "16825791"
+      },
+      "fechaRegistro": "20/11/2023 08:55",
+      "estadoEntrega": "Entregado",
+      "ubicacionEntrega": "Cliente"
+    },
+    {
+      "idHistorial": "HIST027",
+      "pedidoAsociado": {
+        "idPedido": "PED19",
+        "cliente": {
+          "direccion": "Av. Universidad, Residencias Estudiantiles",
+          "nombre": "Laura Gomez",
+          "numeroTelefono": "04129988776",
+          "cedulaIdentidad": "10987654"
+        },
+        "direccionEntrega": "Av. Universidad, Residencias Estudiantiles",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 2.5,
+        "vuelto": 10.0,
+        "estado": "Pendiente",
+        "fechaCreacion": "20/11/2023 10:30",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Laura Gimenez",
+        "numeroTelefono": "04248877665",
+        "cedulaIdentidad": "17398465"
+      },
+      "fechaRegistro": "20/11/2023 10:30",
+      "estadoEntrega": "En Camino",
+      "ubicacionEntrega": "En ruta a Av. Universidad"
+    },
+    {
+      "idHistorial": "HIST028",
+      "pedidoAsociado": {
+        "idPedido": "PED20",
+        "cliente": {
+          "direccion": "Pueblo Viejo, Calle Única, Casa del Árbol",
+          "nombre": "Pedro Martinez",
+          "numeroTelefono": "04241100998",
+          "cedulaIdentidad": "56789012"
+        },
+        "direccionEntrega": "Pueblo Viejo, Calle Única, Casa del Árbol",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "PAGO_MOVIL",
+        "requiereCambio": false,
+        "costoEntrega": 3.0,
+        "vuelto": 0.0,
+        "estado": "En Camino",
+        "fechaCreacion": "20/11/2023 12:45",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "José Martínez",
+        "numeroTelefono": "04167891234",
+        "cedulaIdentidad": "19674321"
+      },
+      "fechaRegistro": "20/11/2023 12:45",
+      "estadoEntrega": "En Camino",
+      "ubicacionEntrega": "En ruta a Pueblo Viejo"
+    },
+    {
+      "idHistorial": "HIST029",
+      "pedidoAsociado": {
+        "idPedido": "PED21",
+        "cliente": {
+          "direccion": "Calle Luna, Edif. Sol, Apto 1A",
+          "nombre": "Ana García",
+          "numeroTelefono": "04121112233",
+          "cedulaIdentidad": "12345678"
+        },
+        "direccionEntrega": "Calle Luna, Edif. Sol, Apto 1A",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 2.0,
+        "vuelto": 5.0,
+        "estado": "Entregado",
+        "fechaCreacion": "21/11/2023 09:00",
+        "fechaEntrega": "21/11/2023 10:10",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Carla Rodríguez",
+        "numeroTelefono": "04265556677",
+        "cedulaIdentidad": "22456109"
+      },
+      "fechaRegistro": "21/11/2023 09:00",
+      "estadoEntrega": "Preparando",
+      "ubicacionEntrega": "Cocina"
+    },
+    {
+      "idHistorial": "HIST030",
+      "pedidoAsociado": {
+        "idPedido": "PED21",
+        "cliente": {
+          "direccion": "Calle Luna, Edif. Sol, Apto 1A",
+          "nombre": "Ana García",
+          "numeroTelefono": "04121112233",
+          "cedulaIdentidad": "12345678"
+        },
+        "direccionEntrega": "Calle Luna, Edif. Sol, Apto 1A",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 2.0,
+        "vuelto": 5.0,
+        "estado": "Entregado",
+        "fechaCreacion": "21/11/2023 09:00",
+        "fechaEntrega": "21/11/2023 10:10",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Carla Rodríguez",
+        "numeroTelefono": "04265556677",
+        "cedulaIdentidad": "22456109"
+      },
+      "fechaRegistro": "21/11/2023 10:10",
+      "estadoEntrega": "Entregado",
+      "ubicacionEntrega": "Cliente"
+    },
+    {
+      "idHistorial": "HIST28979",
+      "pedidoAsociado": {
+        "idPedido": "PED30072",
+        "cliente": {
+          "direccion": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+          "nombre": "Jorge Gonzalez",
+          "numeroTelefono": "04123344556",
+          "cedulaIdentidad": "33445566"
+        },
+        "repartidorAsignado": {
+          "disponibilidad": true,
+          "nombre": "Carla Rodríguez",
+          "numeroTelefono": "04265556677",
+          "cedulaIdentidad": "22456109"
+        },
+        "direccionEntrega": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": false,
+        "costoEntrega": 2.0,
+        "vuelto": 0.0,
+        "estado": "Pendiente",
+        "fechaCreacion": "29/06/2025 12:38",
+        "montoTotal": 29.99
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Carla Rodríguez",
+        "numeroTelefono": "04265556677",
+        "cedulaIdentidad": "22456109"
+      },
+      "fechaRegistro": "29/06/2025 12:38",
+      "estadoEntrega": "Registrado",
+      "ubicacionEntrega": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701"
+    },
+    {
+      "idHistorial": "HIST78756",
+      "pedidoAsociado": {
+        "idPedido": "PED2",
+        "cliente": {
+          "direccion": "Av. Principal, Res. Primavera, Casa 5",
+          "nombre": "Luis Pérez",
+          "numeroTelefono": "04249998877",
+          "cedulaIdentidad": "87654321"
+        },
+        "repartidorAsignado": {
+          "disponibilidad": false,
+          "nombre": "Sofia Ramos",
+          "numeroTelefono": "04123456789",
+          "cedulaIdentidad": "10112233"
+        },
+        "direccionEntrega": "Av. Principal, Res. Primavera, Casa 5",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 3.0,
+        "vuelto": 5.0,
+        "estado": "En Camino",
+        "fechaCreacion": "14/11/2023 12:00",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "Sofia Ramos",
+        "numeroTelefono": "04123456789",
+        "cedulaIdentidad": "10112233"
+      },
+      "fechaRegistro": "29/06/2025 18:40",
+      "estadoEntrega": "Repartidor Reasignado",
+      "ubicacionEntrega": "Av. Principal, Res. Primavera, Casa 5"
+    },
+    {
+      "idHistorial": "HIST47304",
+      "pedidoAsociado": {
+        "idPedido": "PED2",
+        "cliente": {
+          "direccion": "Av. Principal, Res. Primavera, Casa 5",
+          "nombre": "Luis Pérez",
+          "numeroTelefono": "04249998877",
+          "cedulaIdentidad": "87654321"
+        },
+        "repartidorAsignado": {
+          "disponibilidad": false,
+          "nombre": "Carla Rodríguez",
+          "numeroTelefono": "04265556677",
+          "cedulaIdentidad": "22456109"
+        },
+        "direccionEntrega": "Av. Principal, Res. Primavera, Casa 5",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 3.0,
+        "vuelto": 5.0,
+        "estado": "En Camino",
+        "fechaCreacion": "14/11/2023 12:00",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": false,
+        "nombre": "Carla Rodríguez",
+        "numeroTelefono": "04265556677",
+        "cedulaIdentidad": "22456109"
+      },
+      "fechaRegistro": "29/06/2025 18:41",
+      "estadoEntrega": "Repartidor Reasignado",
+      "ubicacionEntrega": "Av. Principal, Res. Primavera, Casa 5"
+    },
+    {
+      "idHistorial": "HIST65379",
+      "pedidoAsociado": {
+        "idPedido": "PED30",
+        "cliente": {
+          "direccion": "Sector La Castellana, Calle N° 1, Qta. Flor",
+          "nombre": "Andres Soto",
+          "numeroTelefono": "04245544330",
+          "cedulaIdentidad": "88776655"
+        },
+        "repartidorAsignado": {
+          "disponibilidad": true,
+          "nombre": "Carla Rodríguez",
+          "numeroTelefono": "04265556677",
+          "cedulaIdentidad": "22456109"
+        },
+        "direccionEntrega": "Sector La Castellana, Calle N° 1, Qta. Flor",
+        "combo": "PARA2",
+        "precioCombo": 15.95,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": true,
+        "costoEntrega": 2.0,
+        "vuelto": 10.0,
+        "estado": "Entregado",
+        "fechaCreacion": "24/11/2023 09:40",
+        "fechaEntrega": "02/07/2025 21:41",
+        "montoTotal": 0.0
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Carla Rodríguez",
+        "numeroTelefono": "04265556677",
+        "cedulaIdentidad": "22456109"
+      },
+      "fechaRegistro": "02/07/2025 21:41",
+      "estadoEntrega": "Entregado",
+      "ubicacionEntrega": "Sector La Castellana, Calle N° 1, Qta. Flor"
+    },
+    {
+      "idHistorial": "HIST78895",
+      "pedidoAsociado": {
+        "idPedido": "PED30072",
+        "cliente": {
+          "direccion": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+          "nombre": "Jorge Gonzalez",
+          "numeroTelefono": "04123344556",
+          "cedulaIdentidad": "33445566"
+        },
+        "repartidorAsignado": {
+          "disponibilidad": true,
+          "nombre": "Carla Rodríguez",
+          "numeroTelefono": "04265556677",
+          "cedulaIdentidad": "22456109"
+        },
+        "direccionEntrega": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701",
+        "combo": "PARA4",
+        "precioCombo": 27.99,
+        "metodoPago": "EFECTIVO",
+        "requiereCambio": false,
+        "costoEntrega": 2.0,
+        "vuelto": 0.0,
+        "estado": "Cancelado",
+        "fechaCreacion": "29/06/2025 12:38",
+        "fechaEntrega": "02/07/2025 21:41",
+        "montoTotal": 29.99
+      },
+      "repartidor": {
+        "disponibilidad": true,
+        "nombre": "Carla Rodríguez",
+        "numeroTelefono": "04265556677",
+        "cedulaIdentidad": "22456109"
+      },
+      "fechaRegistro": "02/07/2025 21:41",
+      "estadoEntrega": "Cancelado",
+      "ubicacionEntrega": "Av. Libertador, Edif. Central, Piso 7, Ofic. 701"
+    }
+  ]
+}
